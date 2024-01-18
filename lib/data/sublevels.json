@@ -1,0 +1,194 @@
+[{
+  "_id": {
+    "$oid": "65a8e127963d998e4220c04d"
+  },
+  "level_name": "Level_3",
+  "sublevels": [
+    {
+      "question": "What does 'mon mari' mean?",
+      "options": [
+        "My sister",
+        "My husband",
+        "My son",
+        "My father"
+      ],
+      "correct_option": "My husband"
+    },
+    {
+      "question": "How do you say 'my wife' in French?",
+      "options": [
+        "ma fille",
+        "ma femme",
+        "ma sœur",
+        "ma mère"
+      ],
+      "correct_option": "ma femme"
+    },
+    {
+      "question": "Translate 'mes parents' to English.",
+      "options": [
+        "My grandparents",
+        "My parents",
+        "My children",
+        "My nephew"
+      ],
+      "correct_option": "My parents"
+    },
+    {
+      "question": "What is the English translation of 'mon frère'?",
+      "options": [
+        "My brother",
+        "My grandfather",
+        "My niece",
+        "My cousin"
+      ],
+      "correct_option": "My brother"
+    },
+    {
+      "question": "If 'ma tante' is mentioned, who is being referred to?",
+      "options": [
+        "My sister",
+        "My aunt",
+        "My mother",
+        "My daughter"
+      ],
+      "correct_option": "My aunt"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65a8e1be963d998e4220c04f"
+  },
+  "level_name": "Level_2",
+  "sublevels": [
+    {
+      "question": "Which is number 5?",
+      "options": [
+        "un",
+        "sept",
+        "deux",
+        "huit"
+      ],
+      "correct_option": "un"
+    },
+    {
+      "question": "There are __ wonders of the world",
+      "options": [
+        "cinq",
+        "sept",
+        "trois",
+        "huit"
+      ],
+      "correct_option": "sept"
+    },
+    {
+      "question": "Which is the first day of the week?",
+      "options": [
+        "lundi",
+        "samedi",
+        "jeudi",
+        "mardi"
+      ],
+      "correct_option": "lundi"
+    },
+    {
+      "question": "Which one is Wednesday?",
+      "options": [
+        "vendredi",
+        "samedi",
+        "jeudi",
+        "mercredi"
+      ],
+      "correct_option": "mercredi"
+    },
+    {
+      "question": "Which is May?",
+      "options": [
+        "janvier",
+        "mars",
+        "peut",
+        "septembre"
+      ],
+      "correct_option": "peut"
+    },
+    {
+      "question": "Christmas is celebrated in ______?",
+      "options": [
+        "decembre",
+        "septembre",
+        "peut",
+        "fevrier"
+      ],
+      "correct_option": "decembre"
+    },
+    {
+      "question": "Today is ____ fool's day",
+      "options": [
+        "julliet",
+        "avril",
+        "peut",
+        "septembre"
+      ],
+      "correct_option": "avril"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65a8e2d1963d998e4220c053"
+  },
+  "level_name": "Level_1",
+  "sublevels": [
+    {
+      "question": "What does 'Bonjour' mean?",
+      "options": [
+        "Good evening",
+        "Goodbye",
+        "Good day",
+        "Hi"
+      ],
+      "correct_option": "Good day"
+    },
+    {
+      "question": "How would you say 'See you later' in French?",
+      "options": [
+        "Bonne nuit",
+        "À bientôt",
+        "Salut",
+        "Au revoir"
+      ],
+      "correct_option": "À bientôt"
+    },
+    {
+      "question": "What is the English translation of 'Voici . . . /Voilà . . .'?",
+      "options": [
+        "There is . . . /Here is . . .",
+        "Let me introduce . . . to you",
+        "Have a good day",
+        "What’s . . . name?"
+      ],
+      "correct_option": "There is . . . /Here is . . ."
+    },
+    {
+      "question": "When someone says 'Salut,' how would you respond?",
+      "options": [
+        "See you soon",
+        "Goodbye",
+        "Hi",
+        "Have a good day"
+      ],
+      "correct_option": "Hi"
+    },
+    {
+      "question": "Translate 'Je m’appelle . . .' to English.",
+      "options": [
+        "What’s . . . name?",
+        "My name is . . .",
+        "Let me introduce . . . to you",
+        "To call"
+      ],
+      "correct_option": "My name is . . ."
+    }
+  ]
+}]

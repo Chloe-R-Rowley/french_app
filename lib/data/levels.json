@@ -1,0 +1,439 @@
+[{
+  "_id": {
+    "$oid": "65a8dd0e963d998e4220c03c"
+  },
+  "level_name": "Level_1",
+  "guidebook_content": [
+    {
+      "french_word": "Tu",
+      "french_pronunciation": "tew",
+      "english_translation": "You (formal)"
+    },
+    {
+      "french_word": "Vous",
+      "french_pronunciation": "vooh",
+      "english_translation": "You (informal)"
+    },
+    {
+      "french_word": "Monsieur",
+      "french_pronunciation": "muh-syuh",
+      "english_translation": "Mister/Sir"
+    },
+    {
+      "french_word": "Madame",
+      "french_pronunciation": "mah-dahm",
+      "english_translation": "Missus/Ma'am"
+    },
+    {
+      "french_word": "Bonjour",
+      "french_pronunciation": "bohN-zhoohr",
+      "english_translation": "Good day"
+    },
+    {
+      "french_word": "Salut",
+      "french_pronunciation": "sah-lew",
+      "english_translation": "Hi"
+    },
+    {
+      "french_word": "Bienvenue",
+      "french_pronunciation": "byaN-vuh-new",
+      "english_translation": "Welcome"
+    },
+    {
+      "french_word": "Appeler",
+      "french_pronunciation": "ahp-ley",
+      "english_translation": "To call"
+    },
+    {
+      "french_word": "Je m’appelle . . .",
+      "french_pronunciation": "zhuh mah-pehl . . .",
+      "english_translation": "My name is . . ."
+    },
+    {
+      "french_word": "Tu t’appelles . . .",
+      "french_pronunciation": "tew tah-pehl . . .",
+      "english_translation": "Your name is . . ."
+    },
+    {
+      "french_word": "Comment s’appelle . . . ?",
+      "french_pronunciation": "koh-mahN sah-pehl . . . ?",
+      "english_translation": "What’s . . . name?"
+    },
+    {
+      "french_word": "Et lui, qui est-ce ?",
+      "french_pronunciation": "ey lwee, kee ehs?",
+      "english_translation": "And who is he?"
+    },
+    {
+      "french_word": "Et elle, qui est-ce ?",
+      "french_pronunciation": "ey ehl, kee ehs?",
+      "english_translation": "And who is she?"
+    },
+    {
+      "french_word": "C’est . . .",
+      "french_pronunciation": "sey. . .",
+      "english_translation": "That is . . ."
+    },
+    {
+      "french_word": "Je vous présente . . .",
+      "french_pronunciation": "zhuh vooh prey-zahNt . . .",
+      "english_translation": "Let me introduce . . . to you"
+    },
+    {
+      "french_word": "Je te présente . . .",
+      "french_pronunciation": "zhuh tuh prey-zahNt . . .",
+      "english_translation": "Let me introduce . . . to you"
+    },
+    {
+      "french_word": "Voici . . . /Voilà . . .",
+      "french_pronunciation": "vwah-see . . . /vwah-lah . . .",
+      "english_translation": "Here is . . . /There is . . ."
+    },
+    {
+      "french_word": "Bonsoir",
+      "french_pronunciation": "bohN-swahr",
+      "english_translation": "Good evening"
+    },
+    {
+      "french_word": "Au revoir",
+      "french_pronunciation": "ohr-vwahr",
+      "english_translation": "Goodbye"
+    },
+    {
+      "french_word": "Bonne nuit",
+      "french_pronunciation": "buhhn nwee",
+      "english_translation": "Good night"
+    },
+    {
+      "french_word": "À bientôt",
+      "french_pronunciation": "ah byaN-toh",
+      "english_translation": "See you soon"
+    },
+    {
+      "french_word": "À tout à l’heure",
+      "french_pronunciation": "ah tooh tah luhr",
+      "english_translation": "See you later"
+    },
+    {
+      "french_word": "À demain",
+      "french_pronunciation": "ah duh-maN",
+      "english_translation": "See you tomorrow"
+    },
+    {
+      "french_word": "Bonne journée",
+      "french_pronunciation": "buhhn zhoohr-ney",
+      "english_translation": "Have a good day"
+    },
+    {
+      "french_word": "Bonne soirée",
+      "french_pronunciation": "buhhn swah-rey",
+      "english_translation": "Have a good evening"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65a8de36963d998e4220c03e"
+  },
+  "level_name": "Level_2",
+  "guidebook_content": [
+    {
+      "french_word": "un",
+      "french_pronunciation": "uhN",
+      "english_translation": "1"
+    },
+    {
+      "french_word": "deux",
+      "french_pronunciation": "duh",
+      "english_translation": "2"
+    },
+    {
+      "french_word": "trois",
+      "french_pronunciation": "trwah",
+      "english_translation": "3"
+    },
+    {
+      "french_word": "quatre",
+      "french_pronunciation": "kah-truh",
+      "english_translation": "4"
+    },
+    {
+      "french_word": "cinq",
+      "french_pronunciation": "saNk",
+      "english_translation": "5"
+    },
+    {
+      "french_word": "six",
+      "french_pronunciation": "sees",
+      "english_translation": "6"
+    },
+    {
+      "french_word": "sept",
+      "french_pronunciation": "seht",
+      "english_translation": "7"
+    },
+    {
+      "french_word": "huit",
+      "french_pronunciation": "weet",
+      "english_translation": "8"
+    },
+    {
+      "french_word": "neuf",
+      "french_pronunciation": "nuhf",
+      "english_translation": "9"
+    },
+    {
+      "french_word": "dix",
+      "french_pronunciation": "dees",
+      "english_translation": "10"
+    },
+    {
+      "french_word": "onze",
+      "french_pronunciation": "ohNz",
+      "english_translation": "11"
+    },
+    {
+      "french_word": "douze",
+      "french_pronunciation": "doohz",
+      "english_translation": "12"
+    },
+    {
+      "french_word": "treize",
+      "french_pronunciation": "trehz",
+      "english_translation": "13"
+    },
+    {
+      "french_word": "quatorze",
+      "french_pronunciation": "kah-tohrz",
+      "english_translation": "14"
+    },
+    {
+      "french_word": "quinze",
+      "french_pronunciation": "kaNz",
+      "english_translation": "15"
+    },
+    {
+      "french_word": "seize",
+      "french_pronunciation": "sehz",
+      "english_translation": "16"
+    },
+    {
+      "french_word": "dix-sept",
+      "french_pronunciation": "dee-seht",
+      "english_translation": "17"
+    },
+    {
+      "french_word": "dix-huit",
+      "french_pronunciation": "deez-weet",
+      "english_translation": "18"
+    },
+    {
+      "french_word": "dix-neuf",
+      "french_pronunciation": "deez-nuhf",
+      "english_translation": "19"
+    },
+    {
+      "french_word": "vingt",
+      "french_pronunciation": "vaN",
+      "english_translation": "20"
+    },
+    {
+      "french_word": "undi",
+      "french_pronunciation": "luhN-dee",
+      "english_translation": "Monday"
+    },
+    {
+      "french_word": "mardi",
+      "french_pronunciation": "mahr-dee",
+      "english_translation": "Tuesday"
+    },
+    {
+      "french_word": "mercredi",
+      "french_pronunciation": "mehr-kruh-dee",
+      "english_translation": "Wednesday"
+    },
+    {
+      "french_word": "jeudi",
+      "french_pronunciation": "zhuh-dee",
+      "english_translation": "Thursday"
+    },
+    {
+      "french_word": "vendredi",
+      "french_pronunciation": "vahN-druh-dee",
+      "english_translation": "Friday"
+    },
+    {
+      "french_word": "samedi",
+      "french_pronunciation": "sahm-dee",
+      "english_translation": "Saturday"
+    },
+    {
+      "french_word": "dimanche",
+      "french_pronunciation": "dee-mahNsh",
+      "english_translation": "Sunday"
+    },
+    {
+      "french_word": "janvier",
+      "french_pronunciation": "zhahN-vyey",
+      "english_translation": "January"
+    },
+    {
+      "french_word": "février",
+      "french_pronunciation": "fey-vryey",
+      "english_translation": "February"
+    },
+    {
+      "french_word": "mars",
+      "french_pronunciation": "mahrs",
+      "english_translation": "March"
+    },
+    {
+      "french_word": "avril",
+      "french_pronunciation": "ah-vreel",
+      "english_translation": "April"
+    },
+    {
+      "french_word": "mai",
+      "french_pronunciation": "mey",
+      "english_translation": "May"
+    },
+    {
+      "french_word": "juin",
+      "french_pronunciation": "zhwaN",
+      "english_translation": "June"
+    },
+    {
+      "french_word": "juillet",
+      "french_pronunciation": "zhwee-yeh",
+      "english_translation": "July"
+    },
+    {
+      "french_word": "août",
+      "french_pronunciation": "ooht",
+      "english_translation": "August"
+    },
+    {
+      "french_word": "septembre",
+      "french_pronunciation": "sehp-tahN-bruh",
+      "english_translation": "September"
+    },
+    {
+      "french_word": "octobre",
+      "french_pronunciation": "ohk-tuhh-bruh",
+      "english_translation": "October"
+    },
+    {
+      "french_word": "novembre",
+      "french_pronunciation": "noh-vahN-bruh",
+      "english_translation": "November"
+    },
+    {
+      "french_word": "décembre",
+      "french_pronunciation": "dey-sahN-bruh",
+      "english_translation": "December"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65a8df0c963d998e4220c040"
+  },
+  "level_name": "Level_3\"",
+  "guidebook_content": [
+    {
+      "french_word": "mon mari",
+      "french_pronunciation": "mohN mah-ree",
+      "english_translation": "my husband"
+    },
+    {
+      "french_word": "ma femme",
+      "french_pronunciation": "mah fahm",
+      "english_translation": "my wife"
+    },
+    {
+      "french_word": "mon père",
+      "french_pronunciation": "mohN pehr",
+      "english_translation": "my father"
+    },
+    {
+      "french_word": "ma mère",
+      "french_pronunciation": "mah mehr",
+      "english_translation": "my mother"
+    },
+    {
+      "french_word": "mes parents",
+      "french_pronunciation": "mey pah-rahN",
+      "english_translation": "my parents"
+    },
+    {
+      "french_word": "mon fils",
+      "french_pronunciation": "mohN fees",
+      "english_translation": "my son"
+    },
+    {
+      "french_word": "ma fille",
+      "french_pronunciation": "mah feey",
+      "english_translation": "my daughter"
+    },
+    {
+      "french_word": "mes enfants",
+      "french_pronunciation": "mey zahN-fahN",
+      "english_translation": "my children"
+    },
+    {
+      "french_word": "mon frère",
+      "french_pronunciation": "mohN frehr",
+      "english_translation": "my brother"
+    },
+    {
+      "french_word": "ma sœur",
+      "french_pronunciation": "mah suhr",
+      "english_translation": "my sister"
+    },
+    {
+      "french_word": "mes grands-parents",
+      "french_pronunciation": "mey grahN-pah-rahN",
+      "english_translation": "my grandparents"
+    },
+    {
+      "french_word": "mon grand-père",
+      "french_pronunciation": "mohN grahN-pehr",
+      "english_translation": "my grandfather"
+    },
+    {
+      "french_word": "ma grand-mère",
+      "french_pronunciation": "mah grahN-mehr",
+      "english_translation": "my grandmother"
+    },
+    {
+      "french_word": "mes petits-enfants",
+      "french_pronunciation": "mey puh-tee-zahN-fahN",
+      "english_translation": "my grandchildren"
+    },
+    {
+      "french_word": "mon neveu",
+      "french_pronunciation": "mohN nuh-vuh",
+      "english_translation": "my nephew"
+    },
+    {
+      "french_word": "ma nièce",
+      "french_pronunciation": "mah nyehs",
+      "english_translation": "my niece"
+    },
+    {
+      "french_word": "mon cousin/ma cousine",
+      "french_pronunciation": "mohN kooh-zaN/mah kooh-zeen",
+      "english_translation": "my cousin"
+    },
+    {
+      "french_word": "mon oncle",
+      "french_pronunciation": "mohN nohN-kluh",
+      "english_translation": "my uncle"
+    },
+    {
+      "french_word": "ma tante",
+      "french_pronunciation": "mah tahNt",
+      "english_translation": "my aunt"
+    }
+  ]
+}]

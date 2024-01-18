@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "65a8bb4556b12d5c2be30b18"
+  },
+  "username": "Pratam",
+  "email": "kalliguddapratam@gmail.com",
+  "password": "123456",
+  "registration_date": {
+    "$date": "2024-01-18T05:46:45.774Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a8cdc5c021c93b2e67e9d9"
+  },
+  "username": "anusha",
+  "email": "anusha@gmail.com",
+  "password": "$2a$10$GvxWvo16bWwyW/dEtbwfpukfKWF3UYoTlrL5mem7aOGODTNIdrhK.",
+  "registration_date": {
+    "$date": {
+      "$numberLong": "-62135596800000"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "65a8d32d256ecb31a81f0242"
+  },
+  "username": "chloe",
+  "email": "chloe@gmail.com",
+  "password": "$2a$10$NPMt4e/UE4xAU1N4Gl/wB.PH./0.rJaYcRF..wI7FvkqeN5wnQrB2",
+  "registration_date": {
+    "$date": {
+      "$numberLong": "-62135596800000"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "65a8d45a65b7fa5b27de71f7"
+  },
+  "username": "pratam1",
+  "email": "pratam1@gmail.com",
+  "password": "$2a$10$eD55Om185m5EfvK2SAdCJu49KQRTJPepAd38kY0/sUcX8n8NmCgE2",
+  "registration_date": {
+    "$date": "2024-01-18T07:33:46.624Z"
+  }
+}]
