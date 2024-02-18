@@ -28,7 +28,7 @@ class MCQOption extends StatelessWidget {
             width: 2,
           ),
         ),
-        padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
+        padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 150),
         child: Text(
           option,
           style: TextStyle(

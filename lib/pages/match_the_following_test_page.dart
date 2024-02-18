@@ -1,13 +1,12 @@
-// pages/match_the_following_test_page.dart
+//pages/match_the_following_test_page.dart
 
 import 'package:flutter/material.dart';
-import 'package:my_app/widgets/matching_item_column.dart';
-import 'package:my_app/widgets/matching_item.dart';
+import 'package:french_app/widgets/matching_item_column.dart';
 
 class MatchTheFollowingTestPage extends StatelessWidget {
   final String lessonName;
 
-  const MatchTheFollowingTestPage({super.key, required this.lessonName});
+  const MatchTheFollowingTestPage({Key? key, required this.lessonName}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -29,25 +28,25 @@ class MatchTheFollowingTestPage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 20),
-            Expanded(
+            const Expanded(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Expanded(
                     child: MatchingItemColumn(
                       items: [
-                        MatchingItem(text: 'Phrase 1'),
-                        MatchingItem(text: 'Phrase 2'),
+                        'Phrase 1',
+                        'Phrase 2',
                         // Add more phrases as needed
                       ],
                     ),
                   ),
-                  const SizedBox(width: 20),
+                  SizedBox(width: 20),
                   Expanded(
                     child: MatchingItemColumn(
                       items: [
-                        MatchingItem(text: 'Translation 1'),
-                        MatchingItem(text: 'Translation 2'),
+                        'Translation 1',
+                        'Translation 2',
                         // Add more translations as needed
                       ],
                     ),

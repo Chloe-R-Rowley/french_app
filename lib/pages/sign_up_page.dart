@@ -1,9 +1,8 @@
 // pages/sign_up_page.dart
 
 import 'package:flutter/material.dart';
-import 'package:my_app/pages/home_page.dart';
-import 'package:my_app/widgets/custom_button.dart';
-import 'package:my_app/widgets/text_field_input.dart';
+import 'package:french_app/widgets/custom_button.dart';
+import 'package:french_app/widgets/text_field_input.dart';
 
 class SignupPage extends StatefulWidget {
   const SignupPage({Key? key}) : super(key: key);
@@ -13,16 +12,16 @@ class SignupPage extends StatefulWidget {
 }
 
 class _SignUpPageState extends State<SignupPage> {
-  final TextEditingController _usernameController = TextEditingController();
-  final TextEditingController _emailController = TextEditingController();
-  final TextEditingController _passwordController = TextEditingController();
+  final TextEditingController usernameController = TextEditingController();
+  final TextEditingController emailController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
   bool _isLoading = false;
 
   @override
   void dispose() {
-    _usernameController.dispose();
-    _passwordController.dispose();
-    _emailController.dispose();
+    usernameController.dispose();
+    passwordController.dispose();
+    emailController.dispose();
     super.dispose();
   }
 
@@ -39,14 +38,12 @@ class _SignUpPageState extends State<SignupPage> {
 
       // Navigate to the home screen or perform other actions
       if (context != null && context!.mounted) {
-        Navigator.of(context!).pushReplacement(
-          MaterialPageRoute(
-            builder: (context) => const HomePage(),
-          ),
-        );
+        Navigator.pushNamedAndRemoveUntil(context, '/home', (route) => false);
       }
     });
   }
+
+
 
   @override
   Widget build(BuildContext context) {
@@ -79,19 +76,19 @@ class _SignUpPageState extends State<SignupPage> {
             ),
             const SizedBox(height: 30),
             TextFieldInput(
-              textEditingController: _emailController,
+              textEditingController: emailController,
               hintText: "Email",
               textInputType: TextInputType.emailAddress,
             ),
             const SizedBox(height: 12),
             TextFieldInput(
-              textEditingController: _usernameController,
+              textEditingController: usernameController,
               hintText: "Username",
               textInputType: TextInputType.text,
             ),
             const SizedBox(height: 12),
             TextFieldInput(
-              textEditingController: _passwordController,
+              textEditingController: passwordController,
               hintText: "Password",
               textInputType: TextInputType.text,
               isPass: true,
@@ -113,7 +110,21 @@ class _SignUpPageState extends State<SignupPage> {
                     color: Theme.of(context).colorScheme.onBackground,
                   ),
                 ),
-                // Add your navigation logic here
+                TextButton(
+                  onPressed: _isLoading
+                      ? null
+                      : () {
+                          Navigator.pushNamed(context, '/signIn');
+                        },
+                  child: Text(
+                    "Sign In",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w600,
+                      color: Theme.of(context).colorScheme.primary,
+                    ),
+                  ),
+                ),
               ],
             ),
           ],

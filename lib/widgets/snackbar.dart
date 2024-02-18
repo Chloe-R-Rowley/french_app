@@ -2,9 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-const Duration snackBarDuration = Duration(seconds: 2);
-
-showStyledSnackBar(BuildContext context, String text) {
+void showStyledSnackBar(BuildContext context, String text) {
   final snackBar = SnackBar(
     content: Container(
       padding: const EdgeInsets.symmetric(vertical: 12),

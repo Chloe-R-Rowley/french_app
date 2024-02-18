@@ -1,7 +1,7 @@
-// widgets/level_tile.dart
+// widgets/lesson_tile.dart
 
 import 'package:flutter/material.dart';
-import 'package:my_app/pages/lesson_detail_page.dart';
+import 'package:french_app/pages/lesson_detail_page.dart';
 
 class LessonTile extends StatelessWidget {
   final String name;

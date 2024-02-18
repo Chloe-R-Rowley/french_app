@@ -1,9 +1,9 @@
 //pages/sign_in_page.dart
 
 import 'package:flutter/material.dart';
-import 'package:my_app/pages/home_page.dart';
-import 'package:my_app/widgets/custom_button.dart';
-import 'package:my_app/widgets/text_field_input.dart';
+import 'package:french_app/pages/home_page.dart';
+import 'package:french_app/widgets/custom_button.dart';
+import 'package:french_app/widgets/text_field_input.dart';
 
 class SignInPage extends StatefulWidget {
   const SignInPage({Key? key}) : super(key: key);
@@ -40,11 +40,7 @@ class _LoginScreenState extends State<SignInPage> {
 
       // Navigate to the home screen
       if (context.mounted) {
-        Navigator.of(context).pushReplacement(
-          MaterialPageRoute(
-            builder: (context) => const HomePage(),
-          ),
-        );
+        Navigator.pushNamedAndRemoveUntil(context, '/home', (route) => false);
       }
     });
   }
@@ -122,12 +118,7 @@ class _LoginScreenState extends State<SignInPage> {
                   onPressed: _isLoading
                       ? null
                       : () {
-                          // Navigate to the home screen (for testing purposes)
-                          Navigator.of(context).pushReplacement(
-                            MaterialPageRoute(
-                              builder: (context) => const HomePage(),
-                            ),
-                          );
+                          Navigator.pushNamed(context, '/signUp');
                         },
                   child: Text(
                     "Sign Up",

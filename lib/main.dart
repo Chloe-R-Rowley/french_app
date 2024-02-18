@@ -1,17 +1,20 @@
-//main.dart
-
 import 'package:flutter/material.dart';
-import 'package:my_app/pages/welcome_page.dart';
-import 'package:my_app/theme/dark_theme.dart';
-import 'package:my_app/theme/light_theme.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:french_app/pages/sign_in_page.dart';
+import 'package:french_app/pages/sign_up_page.dart';
+import 'package:french_app/pages/home_page.dart';
+import 'package:french_app/pages/lesson_detail_page.dart';
+import 'package:french_app/pages/mcq_test_page.dart';
+import 'package:french_app/pages/profile_page.dart';
+import 'package:french_app/pages/welcome_page.dart';
+import 'package:french_app/theme/dark_theme.dart';
+import 'package:french_app/theme/light_theme.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(ProviderScope(child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -20,7 +23,16 @@ class MyApp extends StatelessWidget {
       darkTheme: darkTheme,
       theme: lightTheme,
       themeMode: ThemeMode.system,
-      home: const WelcomePage(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => WelcomePage(),
+        '/signIn': (context) => SignInPage(),
+        '/signUp': (context) => SignupPage(),
+        '/home': (context) => const HomePage(),
+        '/lessonDetail': (context) => const LessonDetailPage(lessonName: '', levelName: ''),
+        '/mcqTest': (context) => const MCQTestPage(lessonName: '', levelName: '',),
+        '/profile': (context) => ProfilePage(),
+      },
     );
   }
 }

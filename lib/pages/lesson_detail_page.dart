@@ -1,11 +1,8 @@
 // pages/lesson_detail_page.dart
 
 import 'package:flutter/material.dart';
-import 'package:my_app/pages/mcq_test_page.dart';
-import 'package:my_app/widgets/bottom_navigation_bar.dart';
-import 'package:my_app/widgets/lesson_detail_tile.dart';
-import 'package:my_app/pages/home_page.dart';
-import 'package:my_app/pages/profile_page.dart';
+import 'package:french_app/widgets/bottom_navigation_bar.dart';
+import 'package:french_app/widgets/lesson_detail_tile.dart';
 
 class LessonDetailPage extends StatelessWidget {
   final String lessonName;
@@ -13,31 +10,49 @@ class LessonDetailPage extends StatelessWidget {
 
   const LessonDetailPage({
     Key? key,
-    required this.lessonName,
     required this.levelName,
+    required this.lessonName,
   }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
+    // Retrieve arguments
+    final arguments = ModalRoute.of(context)!.settings.arguments as Map<String, dynamic>?;
+
+    // Extract lessonName and levelName
+    // final lessonName = arguments?['lessonName'] ?? 'Lesson Name';
+    final levelName = arguments?['levelName'] ?? 'Level Name';
+
     return Scaffold(
       appBar: AppBar(
-        title: Text(lessonName),
+        title: Text(levelName),
         backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
         elevation: 0, // Remove the shadow
         centerTitle: true,
-      ),
+        actions: [
+          IconButton(
+            onPressed: () {
+              // Handle notifications button press
+            },
+            icon: Icon(Icons.notifications),
+          ),
+          IconButton(
+            onPressed: () {
+              // Handle logout button press
+            },
+            icon: Icon(Icons.logout),
+          ),
+        ],
+        ),
       bottomNavigationBar: CustomBottomNavigationBar(
         currentIndex: 0, // Set the appropriate index for this page
         onTap: (index) {
           if (index == 0) {
             // Navigate to Home Page
-            Navigator.of(context).pushReplacement(
-              MaterialPageRoute(builder: (_) => const HomePage()),
-            );
+            Navigator.pushNamed(context, '/home');
           } else if (index == 1) {
             // Navigate to Profile Page
-            Navigator.of(context).pushReplacement(
-              MaterialPageRoute(builder: (_) => ProfilePage()),
-            );
+            Navigator.pushNamed(context, '/profile');
           }
         },
       ),
@@ -50,11 +65,11 @@ class LessonDetailPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    '$lessonName Guide',
+                    '$levelName Guide',
                     style: TextStyle(
-                      fontSize: 24,
-                      fontWeight: FontWeight.bold,
-                      color: Theme.of(context).colorScheme.onSurface,
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                    color: Theme.of(context).colorScheme.onSurface,
                     ),
                   ),
                   const SizedBox(height: 20),
@@ -74,12 +89,13 @@ class LessonDetailPage extends StatelessWidget {
                   Center(
                     child: ElevatedButton(
                       onPressed: () {
-                        Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => MCQTestPage(
-                              lessonName: lessonName,
-                            ),
-                          ),
+                        Navigator.pushNamed(
+                          context,
+                          '/mcqTest',
+                          arguments: {
+                            'lessonName': lessonName, // Assuming you want to pass lessonName as well
+                            'levelName': levelName,
+                          },
                         );
                       },
                       style: ElevatedButton.styleFrom(

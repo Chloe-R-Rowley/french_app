@@ -28,32 +28,24 @@ class LessonDetailTile extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              phrase,
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-                color: Theme.of(context).colorScheme.onSurface,
-              ),
-            ),
+            _buildText(phrase, FontWeight.bold, 20, context),
             const SizedBox(height: 8),
-            Text(
-              'Pronunciation: $pronunciation',
-              style: TextStyle(
-                fontSize: 16,
-                color: Theme.of(context).colorScheme.onSurface,
-              ),
-            ),
+            _buildText('Pronunciation: $pronunciation', FontWeight.normal, 16, context),
             const SizedBox(height: 4),
-            Text(
-              'Translation: $translation',
-              style: TextStyle(
-                fontSize: 16,
-                color: Theme.of(context).colorScheme.onSurface,
-              ),
-            ),
+            _buildText('Translation: $translation', FontWeight.normal, 16, context),
           ],
         ),
+      ),
+    );
+  }
+
+  Widget _buildText(String text, FontWeight fontWeight, double fontSize, BuildContext context) {
+    return Text(
+      text,
+      style: TextStyle(
+        fontSize: fontSize,
+        fontWeight: fontWeight,
+        color: Theme.of(context).colorScheme.onSurface,
       ),
     );
   }

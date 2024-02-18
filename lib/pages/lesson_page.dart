@@ -1,9 +1,10 @@
 // pages/lessons_page.dart
+
 import 'package:flutter/material.dart';
-import 'package:my_app/pages/home_page.dart';
-import 'package:my_app/pages/profile_page.dart';
-import 'package:my_app/widgets/bottom_navigation_bar.dart';
-import 'package:my_app/widgets/lesson_tile.dart'; // Import your custom bottom navigation bar
+import 'package:french_app/pages/home_page.dart';
+import 'package:french_app/pages/profile_page.dart';
+import 'package:french_app/widgets/bottom_navigation_bar.dart';
+import 'package:french_app/widgets/lesson_tile.dart';
 
 class LessonsPage extends StatelessWidget {
   final String levelName;

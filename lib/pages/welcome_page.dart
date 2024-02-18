@@ -1,10 +1,14 @@
+// pages/welcome_page.dart
+
 import 'package:flutter/material.dart';
-import 'package:my_app/pages/sign_in_page.dart';
-import 'package:my_app/pages/sign_up_page.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+final navigatorKeyProvider = Provider((ref) => GlobalKey<NavigatorState>());
+
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({Key? key}) : super(key: key);
-
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -50,8 +54,7 @@ class WelcomePage extends StatelessWidget {
                 ),
               ),
               onPressed: () {
-                Navigator.of(context).push(MaterialPageRoute(
-                    builder: (context) => SignupPage()));
+                Navigator.pushNamed(context, '/signUp');
               },
               child: SizedBox(
                 width: double.infinity,
@@ -72,8 +75,7 @@ class WelcomePage extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                Navigator.of(context).push(MaterialPageRoute(
-                    builder: (context) => const SignInPage()));
+                Navigator.pushNamed(context, '/signIn');
               },
               style: ElevatedButton.styleFrom(
                 elevation: 12,
